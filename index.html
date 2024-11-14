@@ -6,6 +6,30 @@
     <title>Nested Comment Section</title>
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="script.js"></script>
+    <style>
+        .comment {
+          max-width: 600px;
+          margin: 1rem auto;
+        }
+    
+        .reply {
+          margin-left: 2rem;
+          border-left: 2px solid #ccc;
+          padding-left: 1rem;
+        }
+    
+        .nested-comment {
+          background-color: #f9fafb;
+          border: 1px solid #e5e7eb;
+          border-radius: 8px;
+          padding: 1rem;
+          margin-top: 0.5rem;
+        }
+    
+        .reply-input {
+          display: none;
+        }
+      </style>
 </head>
 <body class="bg-gray-100 font-sans">
     <div class="max-w-3xl mx-auto p-6">
